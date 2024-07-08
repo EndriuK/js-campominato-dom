@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    padding: 20px 10px;
+    background-color: green;
+    margin-bottom: 50px;
+    text-align: right;
+}
+
+#start {
+    border: none;
+    color: navy;
+    background-color: #fff;
+    padding: 10px 30px;
+
+}
+
+#grid {
+    max-width: 1200px;
+    height: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.square {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: calc(100% / 10);
+    height: calc(100% / 10);
+    background-color: green;
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+.clicked-sky {
+    background-color: lightskyblue;
+
+}
